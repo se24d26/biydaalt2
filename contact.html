@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="mn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Холбоо барих | MucNoisiv</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">MucNoisiv</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Нүүр</a></li>
+                <li><a href="about.html">Бидний тухай</a></li>
+                <li><a href="portfolio.html">Бүтээлүүд</a></li>
+                <li><a href="services.html">Үйлчилгээ</a></li>
+                <li><a href="contact.html" class="active">Холбоо барих</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Лаборатори</a>
+                    <ul class="dropdown-content">
+                        <li><a href="lab1.html">Лаборатори 1</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <div class="contact-info">
+                <h1 class="section-title" style="text-align: left; font-size: 2rem;">Бидэнтэй холбогдох</h1>
+                <p>Танд манай үйлчилгээний талаар асуух зүйл байна уу? Бид танд туслахад үргэлж бэлэн байна.</p>
+                <div style="margin-top: 2rem;">
+                    <p>📍 <strong>Хаяг:</strong> Улаанбаатар хот, Хаа сайгүй</p>
+                    <p>📞 <strong>Утас:</strong> +976 90676999</p>
+                    <p>✉️ <strong>И-мэйл:</strong> info@MucNoisiv.mn</p>
+                </div>
+            </div>
+            <form class="contact-form" action="#" method="get">
+                <h3>Зурвас илгээх</h3>
+                <input type="text" name="name" placeholder="Таны нэр" required>
+                <input type="email" name="email" placeholder="И-мэйл хаяг" required>
+                <input type="text" name="subject" placeholder="Сэдэв" required>
+                <textarea name="message" rows="5" placeholder="Таны санал хүсэлт..." required></textarea>
+                <button type="submit">Илгээх</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 MucNoisiv. Бүх эрх хуулиар хамгаалагдаагүй.</p>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+
+</html>

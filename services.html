@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="mn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Үйлчилгээ | MucNoisiv</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">MucNoisiv</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Нүүр</a></li>
+                <li><a href="about.html">Бидний тухай</a></li>
+                <li><a href="portfolio.html">Бүтээлүүд</a></li>
+                <li><a href="services.html" class="active">Үйлчилгээ</a></li>
+                <li><a href="contact.html">Холбоо барих</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Лаборатори</a>
+                    <ul class="dropdown-content">
+                        <li><a href="lab1.html">Лаборатори 1</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="section-title" style="margin-top: 3rem;">Санал болгож буй үйлчилгээ</h1>
+        
+        <div class="tabs-container">
+            <div class="tab-buttons">
+                <button class="tab-btn active" data-tab="web">💻 Вэб хөгжүүлэлт</button>
+                <button class="tab-btn" data-tab="app">📱 Аппликейшн</button>
+                <button class="tab-btn" data-tab="uiux">🎨 UI/UX Дизайн</button>
+                <button class="tab-btn" data-tab="marketing">📈 Маркетинг</button>
+            </div>
+
+            <div id="web" class="tab-content active">
+                <h2>Вэб хөгжүүлэлт</h2>
+                <p>Орчин үеийн, хурдан ажиллагаатай, бүх төхөөрөмжид (Responsive) төгс зохицсон вэбсайтыг мэргэжлийн өндөр түвшинд хийж гүйцэтгэнэ. HTML5, CSS3 болон цэвэр JavaScript шийдлүүд.</p>
+            </div>
+
+            <div id="app" class="tab-content">
+                <h2>Аппликейшн хөгжүүлэлт</h2>
+                <p>iOS болон Android үйлдлийн системүүдэд зориулагдсан хэрэглэгчдэд ээлтэй, найдвартай ажиллагаатай гар утасны аппликейшнийг хамгийн сүүлийн үеийн технологиор бүтээх.</p>
+            </div>
+
+            <div id="uiux" class="tab-content">
+                <h2>UI/UX Дизайн</h2>
+                <p>Хэрэглэгчийн зан төлөв, туршлага дээр тулгуурласан үзэмжтэй, практик, хэрэглэхэд хамгийн хялбар интерфейсийн шийдлүүдийг Figma дээр урлаж өгнө.</p>
+            </div>
+
+            <div id="marketing" class="tab-content">
+                <h2>Дижитал Маркетинг</h2>
+                <p>Таны бизнесийг цахим орчинд зөв байршуулж, хайлтын систем (SEO) болон сошиал медиа сувгуудаар дамжуулан зорилтот хэрэглэгчдэд нь богино хугацаанд хүргэх шилдэг стратеги.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 MucNoisiv. Бүх эрх хуулиар хамгаалагдаагүй.</p>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
